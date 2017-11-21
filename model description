@@ -1,0 +1,20 @@
+Here we define the message node value and three functions here used in information propagation with pregel.
+
+We use a array with three numbers to describe the mesage, the first number Message(0) represent which king the message is, here we include three message kind,the first one is initial message, use number zero to represent, the second one is news' message, which represent someone send a new to another, we use number 2 to represent it.
+
+Message:Array[Int](3)
+
+
+
+Node value:Array[Int](3)
+
+
+SendMessageFunction:
+
+
+MergeMessageFunction:
+
+
+VertexUpdateMessage
+
+Although the model is a little hard to description and understand, it is easy to be transformed into codes, and show a hgh high performance especially with Pregel in Graphx of Spark.
